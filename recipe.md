@@ -1,6 +1,6 @@
-# Recipe: TODO (French pastry)
+# Recipe: ??? (French pastry)
 
-Serves: TODO · Preparation: TODO · Baking: TODO
+Serves: 6p · Preparation: 2h · Baking: 30min
 
 ## Ingredients
 
