@@ -27,7 +27,7 @@ By the end of the session you will know how to:
 
 ## The exercise
 
-The recipe lives in [`recipe.md`](recipe.md). The pastry is: **`TODO` (e.g. croissants, éclairs, tarte tatin)**.
+The recipe lives in [`recipe.md`](recipe.md). The pastry is: a surprise, revealed at the end.
 
 Each participant adds **exactly one line**: an ingredient or a preparation step, in a sensible place in the recipe.
 
@@ -86,12 +86,6 @@ Each participant adds **exactly one line**: an ingredient or a preparation step,
 | `git log --oneline --graph` | Visualise history |
 | `git diff` | Show unstaged changes |
 
-## Going further (`TODO`)
-
-- Resolving merge conflicts
-- Rebasing vs merging
-- Issues and project boards
-- Protecting the `main` branch
 
 ## Contributors
 
