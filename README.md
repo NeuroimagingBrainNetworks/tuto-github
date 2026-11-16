@@ -116,6 +116,26 @@ Rules of the game:
    git mergetool
    ```
 
+## Bonus: add a photo to the recipe with Claude Code
+
+You can also let [Claude Code](https://claude.com/claude-code) do the work, as long as it follows the same rules as you.
+
+1. **Start in plan mode.** Open Claude Code in the repository and press `Shift+Tab` until *plan mode* is shown (or type `/plan`). Claude then only reads and proposes a plan: nothing is modified until you approve it. **Read the plan before approving.**
+2. **Paste this prompt** (replace the `<...>` parts):
+   ````text
+   Follow the rules in README.md strictly. Task: add a photo of a Paris-Brest to recipe.md.
+   - First `git switch main` and `git pull`, then create my own branch `team-<choux|crema>/<my-name>`. Never edit or push to `main`.
+   - Download a freely licensed Paris-Brest image (e.g. from Wikimedia Commons) into `images/paris-brest.jpg`, under 1 MB, and add its credit in `images/CREDITS.md`.
+   - In recipe.md, show it right under the title with `![Paris-Brest](images/paris-brest.jpg)`. Do not touch any other line. The recipe text stays in Spanish.
+   - Keep the change small. Show me `git status` and `git diff` before committing.
+   - Make a single commit with a short, imperative English message (e.g. `Add Paris-Brest photo`).
+   - Push with `git push -u origin <branch>`, then open a pull request into `main` with a short description (what was missing, what you added). Do not merge it: someone from the other team must review it.
+   Plan first, and wait for my approval before running anything.
+   ````
+3. **Check the result**: review the plan, approve it, then inspect the change with `git diff` (or `git difftool`) and look at the pull request on GitHub.
+
+The prompt encodes the rules of this repository: your own branch, never `main`, a small change, one commit and one pull request, an English imperative commit message, a recipe in Spanish, and a review by the other team.
+
 ## Golden rules
 
 - ✅ Always create a branch
