@@ -46,11 +46,17 @@ Rules of the game:
 
 ## Workflow, step by step
 
-1. **Clone** the repository
-   ```bash
-   git clone https://github.com/NeuroimagingBrainNetworks/tuto-github.git
-   cd tuto-github
-   ```
+1. **Get the repository**
+   - First time: clone it
+     ```bash
+     git clone https://github.com/NeuroimagingBrainNetworks/tuto-github.git
+     cd tuto-github
+     ```
+   - Already cloned: update `main` before starting
+     ```bash
+     git switch main
+     git pull
+     ```
 2. **Create a branch** with your team and your name
    ```bash
    git switch -c team-choux/<your-name>    # or team-crema/<your-name>
@@ -70,28 +76,44 @@ Rules of the game:
    ```bash
    git push -u origin team-choux/<your-name>
    ```
-7. **Open a pull request** on GitHub targeting `main`, and ask a student **from the other team** to review it.
-8. **Review** a pull request from the other team, then merge once approved. If `main` moved and your branch conflicts, update your branch and resolve the conflict.
+7. **Open a pull request** on GitHub (**Compare & pull request**) targeting `main`, and ask a student **from the other team** to review it. Add a short description: what was missing, and what you added.
+8. **Review** a pull request from the other team, then merge once approved (the author clicks **Merge**). If `main` moved and your branch conflicts, update your branch and resolve the conflict.
 9. **Update** your local `main`
    ```bash
    git switch main
    git pull
    ```
+10. **Delete the finished branch** (optional but recommended)
+    ```bash
+    git branch -d team-choux/<your-name>              # delete locally
+    git push origin --delete team-choux/<your-name>   # delete on the remote
+    ```
+    `-d` refuses to delete unmerged branches, which is a useful safety net.
+
+## Golden rules
+
+- ✅ Always create a branch
+- ✅ Always open a pull request
+- ✅ Keep changes small
+- ❌ Never work on `main`
+- ❌ Never push directly to `main`
 
 ## Rules and conventions
 
 - One branch and one pull request per participant.
 - Never commit directly to `main`.
-- Branch names: `team-choux/<your-name>` or `team-crema/<your-name>`.
+- Branch names: `team-choux/<your-name>` or `team-crema/<your-name>`. (In real projects use `type/short-description`, e.g. `fix/typo-methods`, `feature/add-classifier`, `exp/test-svm`.)
 - Commit messages: short, imperative, in English (e.g. `Add praliné steps`).
 - The recipe itself is written in Spanish.
-- `TODO`: review rules (number of approvals, who merges).
+- Review rules: one approval from a student of the other team; the author merges.
 
 ## Command cheat sheet
 
 | Command | What it does |
 | --- | --- |
 | `git status` | Show modified and staged files |
+| `git branch` | List branches |
+| `git switch <branch>` | Switch to an existing branch |
 | `git switch -c <branch>` | Create and switch to a new branch |
 | `git add <file>` | Stage a file |
 | `git commit -m "<msg>"` | Record staged changes |

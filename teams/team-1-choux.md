@@ -32,7 +32,7 @@ Dónde: sección `Ingredientes > Masa choux` y sección `Materiales` (justo deba
 1. Masa choux: en una cacerola, poner el agua a calentar + mantequilla + sal.
 2. Cuando la mantequilla se funda, añadir la harina de un golpe. Mezclar hasta que la masa se despegue de las paredes.
 3. Apartar del fuego y añadir los huevos uno a uno mezclando entre cada uno. Mezclar enérgicamente para que la masa obtenga elasticidad.
-4. Hacemos la forma del postre con la masa encima de una placa sobre papel sulfurizado. Esta forma tendrá 20 cm de diámetro para los grandes y 10 cm de para los pequeños. Para un postre más grande, haz dos círculos pegados y después uno más sobre los dos.
+4. Hacemos la forma del postre con la masa encima de una placa sobre papel sulfurizado. Esta forma tendrá 20 cm de diámetro para los grandes y 10 cm para los pequeños. Para un postre más grande, haz dos círculos pegados y después uno más sobre los dos.
 
 ## S3 · Paso 5 y pasos 13-14 (montaje)
 
