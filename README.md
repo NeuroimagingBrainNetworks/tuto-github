@@ -65,7 +65,7 @@ Rules of the game:
 4. **Check** what changed
    ```bash
    git status
-   git diff
+   git diff          # or visually: git difftool (see the demo below)
    ```
 5. **Stage and commit**
    ```bash
@@ -89,6 +89,32 @@ Rules of the game:
     git push origin --delete team-choux/<your-name>   # delete on the remote
     ```
     `-d` refuses to delete unmerged branches, which is a useful safety net.
+
+## Demo: visual diff with `git difftool` (meld)
+
+`git diff` prints changes in the terminal. `git difftool` opens them side by side in a graphical tool such as [Meld](https://meldmerge.org/).
+
+1. **Install Meld**: Windows installer from meldmerge.org, macOS `brew install --cask meld`, Linux `sudo apt install meld`.
+2. **Configure it once**
+   ```bash
+   git config --global diff.tool meld
+   git config --global difftool.prompt false    # do not ask before opening each file
+   # Windows only, if meld is not on your PATH:
+   git config --global difftool.meld.path "C:/Program Files/Meld/Meld.exe"
+   ```
+3. **Try it**: edit `recipe.md` without committing, then
+   ```bash
+   git difftool                    # unstaged changes
+   git difftool --staged           # staged changes
+   git difftool main..<branch>     # a branch (or a PR) compared with main
+   git difftool -d                 # directory mode: one window for all files
+   ```
+4. **Bonus, for the merge conflict**: the same idea works for conflicts.
+   ```bash
+   git config --global merge.tool meld
+   git config --global mergetool.keepBackup false    # no *.orig files
+   git mergetool
+   ```
 
 ## Golden rules
 
@@ -121,6 +147,7 @@ Rules of the game:
 | `git pull` | Fetch and merge remote changes |
 | `git log --oneline --graph` | Visualise history |
 | `git diff` | Show unstaged changes |
+| `git difftool` | Show changes in a visual tool (meld) |
 
 
 ## Contributors
