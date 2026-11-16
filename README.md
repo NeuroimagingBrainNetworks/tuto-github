@@ -123,12 +123,12 @@ You can also let [Claude Code](https://claude.com/claude-code) do the work, as l
 1. **Start in plan mode.** Open Claude Code in the repository and press `Shift+Tab` until *plan mode* is shown (or type `/plan`). Claude then only reads and proposes a plan: nothing is modified until you approve it. **Read the plan before approving.**
 2. **Paste this prompt** (replace the `<...>` parts):
    ````text
-   Follow the rules in README.md strictly. Task: add a photo of a Paris-Brest to recipe.md.
+   Follow the rules in README.md strictly. Task: add a photo of the finished pastry (<pastry-name>) to recipe.md.
    - First `git switch main` and `git pull`, then create my own branch `team-<choux|crema>/<my-name>`. Never edit or push to `main`.
-   - Download a freely licensed Paris-Brest image (e.g. from Wikimedia Commons) into `images/paris-brest.jpg`, under 1 MB, and add its credit in `images/CREDITS.md`.
-   - In recipe.md, show it right under the title with `![Paris-Brest](images/paris-brest.jpg)`. Do not touch any other line. The recipe text stays in Spanish.
+   - Download a freely licensed image of <pastry-name> (e.g. from Wikimedia Commons) into `images/pastry.jpg`, under 1 MB, and add its credit in `images/CREDITS.md`.
+   - In recipe.md, show it right under the title with `![Finished pastry](images/pastry.jpg)`. Do not touch any other line. The recipe text stays in Spanish.
    - Keep the change small. Show me `git status` and `git diff` before committing.
-   - Make a single commit with a short, imperative English message (e.g. `Add Paris-Brest photo`).
+   - Make a single commit with a short, imperative English message (e.g. `Add pastry photo`).
    - Push with `git push -u origin <branch>`, then open a pull request into `main` with a short description (what was missing, what you added). Do not merge it: someone from the other team must review it.
    Plan first, and wait for my approval before running anything.
    ````
