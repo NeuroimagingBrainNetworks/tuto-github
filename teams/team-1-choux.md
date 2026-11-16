@@ -37,7 +37,6 @@ Dónde: sección `Ingredientes > Masa choux` y sección `Materiales` (justo deba
 ## S3 · Paso 5 y pasos 13-14 (montaje)
 
 5. Esparcir almendras laminadas por encima y hornear 30 minutos a 200°C. Consejo: cuando estén hechos, apagar el horno, abrir ligeramente la puerta y dejarlos de 5-10 minutos dentro antes de sacarlos. Así no se desinflarán, o (lo menos posible).
-
 13. Montaje: cortar las roscas de choux por la mitad. Poner la crema muselina en una manga pastelera con una boquilla de estrella. Formar pegotes con la crema.
 14. Colocar la otra parte de la rosca encima de la crema, espolvorear azúcar glas y refrigerar mínimo 30 min. ¡Y listo! A devorarlo.
 
