@@ -78,6 +78,25 @@ Rules of the game:
    ```
 7. **Open a pull request** on GitHub (**Compare & pull request**) targeting `main`, and ask a student **from the other team** to review it. Add a short description: what was missing, and what you added.
 8. **Review** a pull request from the other team, then merge once approved (the author clicks **Merge**). If `main` moved and your branch conflicts, update your branch and resolve the conflict.
+   If GitHub says *This branch has conflicts*, the author updates their branch:
+   ```bash
+   git switch team-choux/<your-name>
+   git pull origin main          # Git stops with: CONFLICT (content) in recipe.md
+   ```
+   Open `recipe.md`: the conflict looks like this. Keep what is needed from both sides (e.g. remove duplicated tools), and delete the three marker lines.
+   ```text
+   <<<<<<< HEAD
+   (what is in your branch)
+   =======
+   (what is in main)
+   >>>>>>> origin/main
+   ```
+   Then finish the merge and update the pull request:
+   ```bash
+   git add recipe.md
+   git commit -m "Resolve conflict with main"
+   git push
+   ```
 9. **Update** your local `main`
    ```bash
    git switch main
