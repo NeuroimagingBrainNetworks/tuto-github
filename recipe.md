@@ -23,15 +23,15 @@ Serves: 6p · Preparation: 2h · Baking: 30min
 ## Preparación
 
 <!-- paso 1: S2 -->
-
+Masa choux: en una cacerola, poner el agua a calentar + mantequilla + sal.
 <!-- paso 2: S2 -->
-
+Cuando la mantequilla se funda, añadir la harina de un golpe. Mezclar hasta que la masa se despegue de las paredes.
 <!-- paso 3: S2 -->
-
+Apartar del fuego y añadir los huevos uno a uno mezclando entre cada uno. Mezclar enérgicamente para que la masa obtenga elasticidad.
 <!-- paso 4: S2 -->
-
+Hacemos la forma del postre con la masa encima de una placa sobre papel sulfurizado. Esta forma tendrá 20 cm de diámetro para los grandes y 10 cm para los pequeños. Para un postre más grande, haz dos círculos pegados y después uno más sobre los dos.
 <!-- paso 5: S3 -->
-Esparcir almendras laminadas por encima y hornear 30 minutos a 200°C. Consejo: cuando estén hechos, apagar el horno, abrir ligeramente la puerta y dejarlos de 5-10 minutos dentro antes de sacarlos. Así no se desinflarán, o (lo menos posible).
+
 <!-- paso 6: S5 -->
 
 <!-- paso 7: S5 -->
@@ -47,6 +47,5 @@ Esparcir almendras laminadas por encima y hornear 30 minutos a 200°C. Consejo: 
 <!-- paso 12: S6 -->
 
 <!-- paso 13: S3 -->
-Montaje: cortar las roscas de choux por la mitad. Poner la crema muselina en una manga pastelera con una boquilla de estrella. Formar pegotes con la crema.
 <!-- paso 14: S3 -->
-Colocar la otra parte de la rosca encima de la crema, espolvorear azúcar glas y refrigerar mínimo 30 min. ¡Y listo! A devorarlo.
+
