@@ -32,14 +32,14 @@ Apartar del fuego y añadir los huevos uno a uno mezclando entre cada uno. Mezcl
 Hacemos la forma del postre con la masa encima de una placa sobre papel sulfurizado. Esta forma tendrá 20 cm de diámetro para los grandes y 10 cm para los pequeños. Para un postre más grande, haz dos círculos pegados y después uno más sobre los dos.
 <!-- paso 5: S3 -->
 
-<!-- paso 6: S5 -->
-
-<!-- paso 7: S5 -->
-
-<!-- paso 8: S5 -->
-
-<!-- paso 9: S5 -->
-
+PASO 6
+Praliné: en una sartén, poner el azúcar + un poco de agua. Cuando la mezcla comience a formar burbujas, añadir las almendras y mezclar hasta que se forme caramelo.
+PASO 7
+Poner las almendras caramelizadas sobre una hoja de papel sulfurizado y dejar enfriar. Cuando estén duras, partirlas en trozos y triturarlas en un mixer, picadora o batidora. Picar hasta obtener realmente una pasta que suelte grasa. Reservar.
+PASO 8
+Crema muselina: sacar la mantequilla del frigorífico con antelación para que tenga una textura pomada. Poner la leche a hervir. Mientras, batir las yemas + azúcar hasta que la mezcla se vuelva blanquecina. Añadir la maizena y volver a mezclar bien.
+PASO 9
+Una vez que la leche ha hervido, añadirla poco a poco a la mezcla de yemas mientras movemos con las varillas. Vuelve a poner esta mezcla en la cacerola y llévala al fuego (fuego medio) hasta que espese moviendo continuamente con las varillas.
 <!-- paso 10: S6 -->
 
 <!-- paso 11: S6 -->
