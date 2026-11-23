@@ -48,6 +48,8 @@ Cuando la mantequilla se funda, añadir la harina de un golpe. Mezclar hasta que
 <!-- paso 3: S2 -->
 Apartar del fuego y añadir los huevos uno a uno mezclando entre cada uno. Mezclar enérgicamente para que la masa obtenga elasticidad.
 <!-- paso 4: S2 -->
+
+Esparcir almendras laminadas por encima y hornear 30 minutos a 200°C. Consejo: cuando estén hechos, apagar el horno, abrir ligeramente la puerta y dejarlos de 5-10 minutos dentro antes de sacarlos. Así no se desinflarán, o (lo menos posible).
 Hacemos la forma del postre con la masa encima de una placa sobre papel sulfurizado. Esta forma tendrá 20 cm de diámetro para los grandes y 10 cm para los pequeños. Para un postre más grande, haz dos círculos pegados y después uno más sobre los dos.
 <!-- paso 5: S3 -->
 
@@ -65,6 +67,6 @@ Una vez que la leche ha hervido, añadirla poco a poco a la mezcla de yemas mien
 
 <!-- paso 12: S6 -->
 
-<!-- paso 13: S3 -->
-<!-- paso 14: S3 -->
+Montaje: cortar las roscas de choux por la mitad. Poner la crema muselina en una manga pastelera con una boquilla de estrella. Formar pegotes con la crema.
 
+Colocar la otra parte de la rosca encima de la crema, espolvorear azúcar glas y refrigerar mínimo 30 min. ¡Y listo! A devorarlo. Añado también: bon apetit. 
