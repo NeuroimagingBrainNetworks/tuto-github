@@ -12,13 +12,32 @@ Serves: 6p · Preparation: 2h · Baking: 30min
 
 <!-- S4: ingredientes del praliné (un ingrediente por línea) -->
 
+- 120 gr de almendras
+- 80 gr de azúcar
+- un poco de agua
+
 ### Crema muselina
 
 <!-- S4: ingredientes de la crema muselina (un ingrediente por línea) -->
 
+- 500 ml de leche
+- 125 gr de azúcar
+- 4 yemas
+- 40 gr de maizena
+- 220 gr de mantequilla pomada
+- Azúcar glas para decorar
+
+
 ## Materiales
 
 <!-- S1 (equipo 1) y S4 (equipo 2): añadid vuestros materiales justo debajo de esta línea -->
+
+- sartén
+- triturador
+- bol
+- varillas eléctricas
+- cacerola
+- papel sulfurizado
 
 ## Preparación
 
